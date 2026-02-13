@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             },
           ),
           SizedBox(height: 15,),
-          CustomButton(text: AppStrings.sliver, color: AppColors.sliverColor,
+          CustomButton(text: AppStrings.sliver, color: AppColors.silverColor,
             onPressed: (){
               Navigator.pushNamed(context, AppRoutes.sliverScreen );
             },
